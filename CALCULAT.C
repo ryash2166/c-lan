@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int i,j,n=0,k;
+  clrscr();
+  scanf("%d\t",&n);
+  do{
+  if((n>=0) && (n<=5))
+  {
+   scanf("\t%d",&i);
+  scanf("\t%d",&j);
+
+  if(n==2)
+  {
+   k=i-j;
+   printf("\n%d",k);
+  }
+  else if(n==3)
+  {
+    k=i*j;
+    printf("\n%d",k);
+  }
+  else if(n==4)
+  {
+    k=i/j;
+    printf("\n%d",k);
+  }
+  else if(n==5)
+  {
+     k=i*j/100;
+     printf("\n%d",k);
+  }
+  else if(n==1)
+  {
+    k=i+j;
+    printf("\n%d",k);
+  }
+  else if(n==0)
+  {
+   break;
+  }
+  }
+  }while(n!=
+  0);
+ getch();
+}

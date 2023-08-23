@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int i=65;
+ clrscr();
+  do{
+      while(i<90){
+      printf("\t%c",i);
+      if((i+1)%5==0){
+	printf("\n");
+	}
+	i++;
+      }
+       printf("\n");
+  }while(i<=5);
+ getch();
+}

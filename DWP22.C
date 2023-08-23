@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int i=1,j,n,k;
+ clrscr();
+ scanf("%d",&n);
+ do{
+	j=i;
+	while(j<=n)
+	{
+	  printf(" ");
+	  j++;
+	}
+	   k=1;
+	   while(k<=i)
+	   {
+	     printf("* ");
+	     k++;
+	   }
+	printf("\n");
+	i++;
+ }while(i<=n);
+ getch();
+}
